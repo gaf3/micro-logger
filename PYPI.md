@@ -1,6 +1,6 @@
-# python-micro-logger
+# micro-logger
 
-A JSON logger made for microservices
+A JSON logger made for microservices.
 
 # Usage
 
@@ -40,15 +40,3 @@ class TestUnitTest(micro_logger_unittest.TestCase):
 
         self.assertLogged(self.logger, "info", "sure", extra={"a": 1})
 ```
-
-# Actions
-
-Everyting is done through Docker. No python code is executed locally.
-
-- `make build` - Build a local image to use (do this first)
-- `make test` - Run tests
-- `make debug` - Run tests with step through debugging. Will pause until the 'micro-logger' debugger is started.
-- `make lint`- Run the linter (uses test/.pylintc)
-- `make setup` - Verifies this repo can be installed as a Python package
-- `make tag` - Tags this commit with the version in Makefile
-- `make untag` - Untags this commit
