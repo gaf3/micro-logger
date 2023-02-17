@@ -19,6 +19,8 @@ class TestMockLogger(unittest.TestCase):
 
         self.assertEqual(logger.name, "test")
         self.assertEqual(logger.events, [])
+        self.assertEqual(logger.level, 0)
+        self.assertEqual(logger.handlers, [])
 
     def test_clear(self):
 
