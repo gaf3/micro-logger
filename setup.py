@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="micro-logger",
-    version="0.1.2",
+    version="0.1.3",
     package_dir = {'': 'lib'},
     py_modules = [
         'micro_logger',

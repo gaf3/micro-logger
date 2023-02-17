@@ -1,6 +1,6 @@
 # micro-logger
 
-A JSON logger made for microservices.
+A JSON logger made for microservices
 
 # Usage
 

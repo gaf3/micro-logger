@@ -11,6 +11,9 @@ class MockLogger:
     Class for mock and checking logging. Use as a patch.
     """
 
+    level = 0
+    handlers = []
+
     def __init__(self, name):
         """
         Keep track of the name and clear the events
