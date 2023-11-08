@@ -7,7 +7,7 @@ with open("README.md", "r") as readme_file:
 
 setup(
     name="micro-logger",
-    version="0.1.3",
+    version="0.1.4",
     package_dir = {'': 'lib'},
     py_modules = [
         'micro_logger',
@@ -16,7 +16,7 @@ setup(
     install_requires=[
         'python-json-logger==2.0.2'
     ],
-    url="https://github.com/relations-dil/python-micro-logger",
+    url="https://github.com/gaf3/python-micro-logger",
     author="Gaffer Fitch",
     author_email="micro-logger@gaf3.com",
     description="A JSON logger made for microservices",
